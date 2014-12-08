@@ -43,7 +43,7 @@
 	// Do any additional setup after loading the view.
     pickerDidShow = NO;
     
-    FrontCamera = NO;
+    FrontCamera = YES; 
     self.captureImage.hidden = YES;
     
     // Setup UIImagePicker Controller
@@ -438,20 +438,7 @@
 }
 
 #pragma mark - Button clicks
-- (IBAction)gridToogle:(UIButton *)sender{
-    if (sender.selected) {
-        sender.selected = NO;
-        [UIView animateWithDuration:0.2 delay:0.0 options:0 animations:^{
-            self.ImgViewGrid.alpha = 1.0f;
-        } completion:nil];
-    }
-    else{
-        sender.selected = YES;
-        [UIView animateWithDuration:0.2 delay:0.0 options:0 animations:^{
-            self.ImgViewGrid.alpha = 0.0f;
-        } completion:nil];
-    }
-}
+
 
 -(IBAction)switchToLibrary:(id)sender {
     
