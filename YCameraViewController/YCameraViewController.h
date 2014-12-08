@@ -52,7 +52,6 @@
 @property (nonatomic, strong) IBOutlet UIButton *cancelButton;
 @property (nonatomic, strong) IBOutlet UIButton *cameraToggleButton;
 @property (nonatomic, strong) IBOutlet UIButton *libraryToggleButton;
-@property (nonatomic, strong) IBOutlet UIButton *flashToggleButton;
 @property (nonatomic, strong) IBOutlet UIView *photoBar;
 @property (nonatomic, strong) IBOutlet UIView *topBar;
 @property (retain, nonatomic) IBOutlet UIView *imagePreview;

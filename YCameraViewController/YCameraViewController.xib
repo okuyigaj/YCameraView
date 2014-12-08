@@ -10,7 +10,6 @@
                 <outlet property="cameraToggleButton" destination="37" id="48"/>
                 <outlet property="cancelButton" destination="36" id="44"/>
                 <outlet property="captureImage" destination="h5e-Bx-TvZ" id="GzU-XD-Z0h"/>
-                <outlet property="flashToggleButton" destination="77" id="78"/>
                 <outlet property="imagePreview" destination="UiP-kv-PWi" id="7CM-Yk-s5w"/>
                 <outlet property="libraryToggleButton" destination="83" id="88"/>
                 <outlet property="photoBar" destination="31" id="73"/>
@@ -152,22 +151,6 @@
                                 <action selector="switchCamera:" destination="-1" eventType="touchUpInside" id="j6e-2e-AOj"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="77">
-                            <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                            <state key="normal" image="flash-off.png">
-                                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                            </state>
-                            <state key="selected" image="flash.png"/>
-                            <state key="highlighted">
-                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </state>
-                            <connections>
-                                <action selector="toogleFlash:" destination="-1" eventType="touchUpInside" id="6sd-4G-Ybg"/>
-                            </connections>
-                        </button>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
@@ -179,7 +162,6 @@
     </objects>
     <resources>
         <image name="filter-close.png" width="29" height="28"/>
-        <image name="flash-off.png" width="25" height="25"/>
         <image name="flash.png" width="25" height="25"/>
         <image name="front-camera.png" width="47" height="23"/>
         <image name="library.png" width="27" height="27"/>
